@@ -25,8 +25,8 @@ RUN dotnet publish --no-restore --configuration Release
 FROM mcr.microsoft.com/dotnet/aspnet:$IMAGE_BASE
 
 # Metadata in Label Schema format (http://label-schema.org)
-LABEL org.label-schema.name="Name" \
-      org.label-schema.version="Version" \
+LABEL org.label-schema.name="DotNet" \
+      org.label-schema.version="1.5.0" \
       org.label-schema.vendor="Ben Coleman" \
       org.opencontainers.image.source="https://github.com/benc-uk/dotnet-demoapp"
 
