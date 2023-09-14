@@ -1,5 +1,6 @@
 # =======================================================
 # Stage 1 - Build/compile app using container
+# Also make note that alpine image is used since its small in size and some images have preconfigured installations already existing in it.
 # =======================================================
 
 ARG IMAGE_BASE=6.0-alpine
